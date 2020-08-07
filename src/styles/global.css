@@ -1,7 +1,19 @@
 html {
     background-color: peachpuff;
+    max-width: 960px;
+    margin: auto;
+    text-align: center;
 }
   
   a {
     color: rebeccapurple;
+}
+
+.pill {
+  background-color: #ebebeb;
+  max-width: 150px;
+  margin: auto;
+  padding: 10px;
+  color: #667380;
+  border-radius: 20px;
 }
