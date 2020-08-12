@@ -1,19 +1,180 @@
 html {
-    background-color: peachpuff;
+    background-color: #d3d3d3;
     max-width: 960px;
     margin: auto;
     text-align: center;
 }
+
+a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #fafcfb;
+}
   
-  a {
-    color: rebeccapurple;
+img {
+    max-width: 30px;
+}
+
+input {
+  width: 80%;
+  margin: auto;
+  padding: 12px 10px;
+  box-sizing: border-box;
+  border: 2px solid #8c959e;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid #515785;
+}
+
+textarea {
+  width: 80%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #8c959e;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+
+textarea:focus {
+  outline: none;
+  border: 2px solid #515785;
+}
+
+button {
+  width: 80%;
+  padding: 10px 10px;
+  border-radius: 10px;
+  background-color: #515785;
+  color: #fafcfb;
+  border: none;
+  cursor: pointer;
+  -webkit-box-shadow: 10px 10px 20px 10px rgba(0,0,0,0.12);
+  -moz-box-shadow: 10px 10px 20px 10px rgba(0,0,0,0.12);
+  box-shadow: 10px 10px 20px 10px rgba(0,0,0,0.12);
+}
+
+button:hover {
+  background-color: #517185;
 }
 
 .pill {
   background-color: #ebebeb;
   max-width: 150px;
   margin: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
   padding: 10px;
   color: #667380;
   border-radius: 20px;
+  font-weight: 600;
 }
+
+.icon {
+  margin: 2px;
+  position: relative;
+  top: 0;
+  transition: top ease 0.2s;
+}
+
+.icon:hover {
+  top: -2px;
+}
+
+
+.activeNav  {
+  text-decoration: none;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 2px;
+  border-radius: 5px;
+  font-weight: bold;
+  background-color: #515785;
+  color: #fafcfb;
+}
+
+.about  {
+  background-color: #ebebeb;
+  border-radius: 10px;
+  -webkit-box-shadow: 10px 10px 20px 10px rgba(0,0,0,0.05);
+  -moz-box-shadow: 10px 10px 20px 10px rgba(0,0,0,0.05);
+  box-shadow: 10px 10px 20px 10px rgba(0,0,0,0.05);
+  padding: 25px;
+  margin: auto;
+  margin-top: 10px;
+  max-width: 90%;
+}
+
+.flexCont {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+
+.flexContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+  margin-top: 10px;
+  width: 96%;
+}
+
+.small, form  {
+  width: 100%;
+  background-color: #ebebeb;
+  margin: 5px;
+  margin-top: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 10px 10px 20px 10px rgba(0,0,0,0.05);
+  -moz-box-shadow: 10px 10px 20px 10px rgba(0,0,0,0.05);
+  box-shadow: 10px 10px 20px 10px rgba(0,0,0,0.05);
+  padding: 25px;
+  position: relative;
+  top: 0;
+  transition: top ease 0.2s;
+}
+
+.small:hover {
+  top: -5px;
+}
+
+form {
+  max-width: 80%;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.image  {
+  max-width: 50px;
+  width: 50px;
+}
+
+.imageM  {
+  max-width: 150px;
+  width: 150px;
+}
+
+.imageDiv  {
+  height: 80px;
+  vertical-align: middle;
+
+}
+
+@media (max-width: 800px) {
+  .activeNav {
+      text-decoration: none;
+      padding-left: 5px;
+      padding-right: 5px;
+      font-size: 14px;
+  }
+}
+

@@ -1,0 +1,33 @@
+.nav {
+    text-decoration: none;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 2px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #515785;
+}
+
+.nav:hover  {
+    background-color: #515785;
+    color: #fafcfb;
+}
+
+.navDiv {
+    text-decoration: none;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    overflow-x:scroll;
+    white-space:nowrap;
+}
+
+@media (max-width: 800px) {
+    .nav {
+        text-decoration: none;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 14px;
+    }
+}
