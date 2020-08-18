@@ -73,7 +73,7 @@
                 <img className="imageM" src={Mamoq} alt="Mamoq"/>
                 </div>
                 <a href="https://www.mamoq.com" target="_blank"><p>MAMOQ</p></a>
-                <p>Built with: Shopify</p>
+                <p>Built with: Shopify, integrates with top 8 ecommerce platforms via API</p>
             </div>
             <div className="small">
                 <img className="imageM" src={TweetBattle} alt="TweetBattle"/>

@@ -112,13 +112,6 @@ button:hover {
   max-width: 90%;
 }
 
-.flexCont {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  
-}
-
 .flexContainer {
   display: flex;
   flex-direction: row;
