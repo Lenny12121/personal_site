@@ -66,7 +66,7 @@
                 <img className="imageM" src={GetMads} alt="Get Mads"/>
                 </div>
                 <a href="https://www.getmads.com" target="_blank"><p>Get Mads</p></a>
-                <p>Built with: React, Bootstrap, MongoDB, Node.js, Webflow, Airtable</p>
+                <p>Built with: React, Bootstrap, MongoDB, Node.js,auth0, Webflow, Airtable</p>
             </div>
             <div className="small">
                 <div className="imageDiv">

@@ -72,7 +72,7 @@ const HireMe = () => (
             </div>
             <div className="small">
                 <img className="image" src={Beer} alt="Beer"/>
-                <p>Just want to chat have a beer & cook?</p>
+                <p>Just want to chat & have a beer?</p>
                 <p>
                     Hodor. Hodor hodor, hodor. Hodor hodor hodor hodor hodor. Hodor. Hodor! Hodor hodor, hodor; hodor hodor hodor. Hodor. Hodor hodor; hodor hodor - hodor, hodor, hodor hodor. Hodor, hodor. Hodor. Hodor, hodor hodor hodor; hodor hodor; hodor hodor hodor! Hodor hodor HODOR! Hodor hodor... Hodor hodor hodor...
                 </p>
